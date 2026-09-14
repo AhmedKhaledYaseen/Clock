@@ -1,0 +1,26 @@
+body {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    background-color: darkslategray;
+    color: aliceblue;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
